@@ -17,12 +17,12 @@
 
 # Using the Dependency in Gradle
 
-1. In your Gradle build file, add the Maven repository `https://raw.githubusercontent.com/Roobotics-FRC/RooMaven/master` as shown below:
+1. In your Gradle build file, add the Maven repository `https://raw.githubusercontent.com/Samasaur1/Maven-Central/master` as shown below:
 
     ```groovy
     repositories {
         mavenCentral()
-        maven { url 'https://raw.githubusercontent.com/Roobotics-FRC/RooMaven/master' }
+        maven { url 'https://raw.githubusercontent.com/Samasaur1/Maven-Central/master' }
         ...
     }
     ```
