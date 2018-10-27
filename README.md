@@ -3,7 +3,7 @@
 1. Create a new branch for the dependency you are adding. **Do not** directly add new dependencies to `master`.
 2. On the new branch, run the following command, substituting in the correct values for the different parameters:
     ```bash
-    mvn install:install-file -DgroupId=YOUR_GROUP -DartifactId=YOUR_ARTIFACT -Dversion=YOUR_VERSION -Dfile=YOUR_JAR_FILE -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
+    mvn install:install-file -DgroupId=$YOUR_GROUP -DartifactId=$YOUR_ARTIFACT -Dversion=$YOUR_VERSION -Dfile=$YOUR_JAR_FILE -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
     ```
 
     * An example of this command for the TalonSRX Java library is shown below:
